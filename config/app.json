@@ -1,0 +1,13 @@
+{
+	"name": "deepl",
+	"cwd": "/root/deepl/",
+	"script": "main.py 1337",
+	"interpreter": "python3.8",
+	"instances": 1,
+	"autorestart": true,
+	"watch": false,
+	"max_memory_restart": "256M",
+	"pid": "log/deepl.pid",
+	"out_file": "log/app-out.log",
+	"error_file": "log/app-err.log"
+}
